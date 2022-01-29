@@ -1,5 +1,6 @@
 class Admin:
     __books={}
+    __Readers={}
     __instance=None
     def __new__(cls,*args,**kwargs):
         if Admin.__instance==None:
@@ -12,7 +13,8 @@ class Admin:
        
 
 class Reader:
-    pass
+    def __init__(self,reader_name,age,contact,email):
+        self.__rname=reader_name
 class Book:
         
     def __init__(self,name,author,count):
