@@ -1,3 +1,3 @@
 #DS --> Stands for Data Structures
 
-##This folder consits off all DS implemetations using python. 
+##This folder consits off all DS implemetations using python. this is python
